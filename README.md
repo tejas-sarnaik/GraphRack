@@ -79,7 +79,7 @@ flowchart LR
     C --> I[Bounded evidence paths]
 ```
 
-Let $$b_i(q)$$ denote BM25 over chunk `i`, `g_i(q)` the query-keyword neighborhood support, and `λ ∈ [0,1]` the expansion weight. Ranking uses:
+Let `$$b_i(q)$$` denote BM25 over chunk `$$i$$`, `$$g_i(q)$$` the query-keyword neighborhood support, and `$$λ ∈ [0,1]$$` the expansion weight. Ranking uses:
 
 $$
 \mathrm{score}(i,q) = (1-\lambda)\frac{b_i(q)}{\max_j b_j(q)} + \lambda g_i(q)
