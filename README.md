@@ -6,7 +6,7 @@
 
 **A local-first, explainable evidence-graph retrieval toolkit for research and RAG applications.**
 
-[![CI](https://github.com/tejas-sarnaik/GraphRack-GraphRAG/actions/workflows/ci.yml/badge.svg)](https://github.com/tejas-sarnaik/GraphRack-GraphRAG/actions/workflows/ci.yml)
+[![CI](https://github.com/tejas-sarnaik/GraphRack/actions/workflows/ci.yml/badge.svg)](https://github.com/tejas-sarnaik/GraphRack/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
