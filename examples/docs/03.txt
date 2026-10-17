@@ -1,0 +1,1 @@
+Cedar Institute collaborated with Beacon Labs on the Atlas benchmark. Cedar Institute published an open evaluation protocol for source attribution.

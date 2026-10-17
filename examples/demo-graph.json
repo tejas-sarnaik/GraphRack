@@ -1,0 +1,1210 @@
+{
+  "nodes": [
+    {
+      "id": "answering",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "id": "aster",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "id": "atlas",
+      "chunks": [
+        "02.txt::c0",
+        "03.txt::c0"
+      ]
+    },
+    {
+      "id": "attribution",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "id": "aurora",
+      "chunks": [
+        "01.txt::c0",
+        "02.txt::c0"
+      ]
+    },
+    {
+      "id": "beacon",
+      "chunks": [
+        "01.txt::c0",
+        "02.txt::c0",
+        "03.txt::c0"
+      ]
+    },
+    {
+      "id": "benchmark",
+      "chunks": [
+        "02.txt::c0",
+        "03.txt::c0"
+      ]
+    },
+    {
+      "id": "cedar",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "id": "citation",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "id": "collaborated",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "id": "correctness",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "id": "developed",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "id": "documents",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "id": "evaluate",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "id": "evaluated",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "id": "evaluates",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "id": "evaluation",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "id": "evidence",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "id": "institute",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "id": "labs",
+      "chunks": [
+        "01.txt::c0",
+        "02.txt::c0",
+        "03.txt::c0"
+      ]
+    },
+    {
+      "id": "language",
+      "chunks": [
+        "01.txt::c0",
+        "02.txt::c0"
+      ]
+    },
+    {
+      "id": "maintains",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "id": "model",
+      "chunks": [
+        "01.txt::c0",
+        "02.txt::c0"
+      ]
+    },
+    {
+      "id": "multi-hop",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "id": "open",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "id": "partnered",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "id": "protocol",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "id": "published",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "id": "question",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "id": "research",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "id": "retrieval",
+      "chunks": [
+        "01.txt::c0",
+        "02.txt::c0"
+      ]
+    },
+    {
+      "id": "scientific",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "id": "source",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "id": "uses",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "answering",
+      "target": "aurora",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "answering",
+      "target": "evidence",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "answering",
+      "target": "question",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "answering",
+      "target": "retrieval",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "answering",
+      "target": "uses",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "aster",
+      "target": "aurora",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "aster",
+      "target": "beacon",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "aster",
+      "target": "developed",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "aster",
+      "target": "documents",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "aster",
+      "target": "evaluate",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "aster",
+      "target": "labs",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "aster",
+      "target": "language",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "aster",
+      "target": "model",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "aster",
+      "target": "partnered",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "aster",
+      "target": "research",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "aster",
+      "target": "scientific",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "atlas",
+      "target": "aurora",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "source": "atlas",
+      "target": "beacon",
+      "chunks": [
+        "02.txt::c0",
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "atlas",
+      "target": "benchmark",
+      "chunks": [
+        "02.txt::c0",
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "atlas",
+      "target": "cedar",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "atlas",
+      "target": "citation",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "source": "atlas",
+      "target": "collaborated",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "atlas",
+      "target": "correctness",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "source": "atlas",
+      "target": "evaluated",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "source": "atlas",
+      "target": "evaluates",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "source": "atlas",
+      "target": "institute",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "atlas",
+      "target": "labs",
+      "chunks": [
+        "02.txt::c0",
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "atlas",
+      "target": "language",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "source": "atlas",
+      "target": "maintains",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "source": "atlas",
+      "target": "model",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "source": "atlas",
+      "target": "multi-hop",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "source": "atlas",
+      "target": "retrieval",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "source": "attribution",
+      "target": "cedar",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "attribution",
+      "target": "evaluation",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "attribution",
+      "target": "institute",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "attribution",
+      "target": "open",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "attribution",
+      "target": "protocol",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "attribution",
+      "target": "published",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "attribution",
+      "target": "source",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "aurora",
+      "target": "beacon",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "aurora",
+      "target": "benchmark",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "source": "aurora",
+      "target": "developed",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "aurora",
+      "target": "documents",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "aurora",
+      "target": "evaluate",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "aurora",
+      "target": "evaluated",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "source": "aurora",
+      "target": "evidence",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "aurora",
+      "target": "labs",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "aurora",
+      "target": "language",
+      "chunks": [
+        "01.txt::c0",
+        "02.txt::c0"
+      ]
+    },
+    {
+      "source": "aurora",
+      "target": "model",
+      "chunks": [
+        "01.txt::c0",
+        "02.txt::c0"
+      ]
+    },
+    {
+      "source": "aurora",
+      "target": "partnered",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "aurora",
+      "target": "question",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "aurora",
+      "target": "research",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "aurora",
+      "target": "retrieval",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "aurora",
+      "target": "scientific",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "aurora",
+      "target": "uses",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "beacon",
+      "target": "benchmark",
+      "chunks": [
+        "02.txt::c0",
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "beacon",
+      "target": "cedar",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "beacon",
+      "target": "collaborated",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "beacon",
+      "target": "documents",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "beacon",
+      "target": "evaluate",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "beacon",
+      "target": "institute",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "beacon",
+      "target": "labs",
+      "chunks": [
+        "01.txt::c0",
+        "02.txt::c0",
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "beacon",
+      "target": "maintains",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "source": "beacon",
+      "target": "partnered",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "beacon",
+      "target": "research",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "beacon",
+      "target": "scientific",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "benchmark",
+      "target": "cedar",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "benchmark",
+      "target": "collaborated",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "benchmark",
+      "target": "evaluated",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "source": "benchmark",
+      "target": "institute",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "benchmark",
+      "target": "labs",
+      "chunks": [
+        "02.txt::c0",
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "benchmark",
+      "target": "language",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "source": "benchmark",
+      "target": "maintains",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "source": "benchmark",
+      "target": "model",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "source": "cedar",
+      "target": "collaborated",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "cedar",
+      "target": "evaluation",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "cedar",
+      "target": "institute",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "cedar",
+      "target": "labs",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "cedar",
+      "target": "open",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "cedar",
+      "target": "protocol",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "cedar",
+      "target": "published",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "cedar",
+      "target": "source",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "citation",
+      "target": "correctness",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "source": "citation",
+      "target": "evaluates",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "source": "citation",
+      "target": "multi-hop",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "source": "citation",
+      "target": "retrieval",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "source": "collaborated",
+      "target": "institute",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "collaborated",
+      "target": "labs",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "correctness",
+      "target": "evaluates",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "source": "correctness",
+      "target": "multi-hop",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "source": "correctness",
+      "target": "retrieval",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "source": "developed",
+      "target": "language",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "developed",
+      "target": "model",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "developed",
+      "target": "research",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "documents",
+      "target": "evaluate",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "documents",
+      "target": "labs",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "documents",
+      "target": "partnered",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "documents",
+      "target": "research",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "documents",
+      "target": "scientific",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "evaluate",
+      "target": "labs",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "evaluate",
+      "target": "partnered",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "evaluate",
+      "target": "research",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "evaluate",
+      "target": "scientific",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "evaluated",
+      "target": "language",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "source": "evaluated",
+      "target": "model",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "source": "evaluates",
+      "target": "multi-hop",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "source": "evaluates",
+      "target": "retrieval",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "source": "evaluation",
+      "target": "institute",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "evaluation",
+      "target": "open",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "evaluation",
+      "target": "protocol",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "evaluation",
+      "target": "published",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "evaluation",
+      "target": "source",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "evidence",
+      "target": "question",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "evidence",
+      "target": "retrieval",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "evidence",
+      "target": "uses",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "institute",
+      "target": "labs",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "institute",
+      "target": "open",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "institute",
+      "target": "protocol",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "institute",
+      "target": "published",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "institute",
+      "target": "source",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "labs",
+      "target": "maintains",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "source": "labs",
+      "target": "partnered",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "labs",
+      "target": "research",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "labs",
+      "target": "scientific",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "language",
+      "target": "model",
+      "chunks": [
+        "01.txt::c0",
+        "02.txt::c0"
+      ]
+    },
+    {
+      "source": "language",
+      "target": "research",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "model",
+      "target": "research",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "multi-hop",
+      "target": "retrieval",
+      "chunks": [
+        "02.txt::c0"
+      ]
+    },
+    {
+      "source": "open",
+      "target": "protocol",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "open",
+      "target": "published",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "open",
+      "target": "source",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "partnered",
+      "target": "research",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "partnered",
+      "target": "scientific",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "protocol",
+      "target": "published",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "protocol",
+      "target": "source",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "published",
+      "target": "source",
+      "chunks": [
+        "03.txt::c0"
+      ]
+    },
+    {
+      "source": "question",
+      "target": "retrieval",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "question",
+      "target": "uses",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "research",
+      "target": "scientific",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    },
+    {
+      "source": "retrieval",
+      "target": "uses",
+      "chunks": [
+        "01.txt::c0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "question": "Which benchmark evaluates Aurora?",
+  "status": "extractive_evidence",
+  "answer": "The Aurora language model was evaluated on the Atlas benchmark.",
+  "citations": [
+    "02.txt::c0"
+  ],
+  "retrieval": [
+    {
+      "chunk_id": "02.txt::c0",
+      "doc_id": "02.txt",
+      "score": 0.8625,
+      "text": "Beacon Labs maintains the Atlas benchmark. Atlas evaluates multi-hop retrieval and citation correctness. The Aurora language model was evaluated on the Atlas benchmark.",
+      "matched_entities": [
+        "aurora",
+        "benchmark",
+        "evaluates"
+      ]
+    },
+    {
+      "chunk_id": "01.txt::c0",
+      "doc_id": "01.txt",
+      "score": 0.417636,
+      "text": "Aster Research developed the Aurora language model. Aurora uses evidence retrieval for question answering. Aster Research partnered with Beacon Labs to evaluate Aurora on scientific documents.",
+      "matched_entities": [
+        "aurora"
+      ]
+    },
+    {
+      "chunk_id": "03.txt::c0",
+      "doc_id": "03.txt",
+      "score": 0.260619,
+      "text": "Cedar Institute collaborated with Beacon Labs on the Atlas benchmark. Cedar Institute published an open evaluation protocol for source attribution.",
+      "matched_entities": [
+        "benchmark"
+      ]
+    }
+  ],
+  "warning": "Extracted text is source evidence, not a verified answer."
+}

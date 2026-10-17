@@ -1,0 +1,1 @@
+Aster Research developed the Aurora language model. Aurora uses evidence retrieval for question answering. Aster Research partnered with Beacon Labs to evaluate Aurora on scientific documents.

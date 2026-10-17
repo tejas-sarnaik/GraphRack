@@ -1,0 +1,1 @@
+Beacon Labs maintains the Atlas benchmark. Atlas evaluates multi-hop retrieval and citation correctness. The Aurora language model was evaluated on the Atlas benchmark.

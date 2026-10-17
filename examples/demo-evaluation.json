@@ -1,0 +1,42 @@
+{
+  "queries": 3,
+  "k": 5,
+  "precision_at_k": 0.20000000000000004,
+  "recall_at_k": 1.0,
+  "mrr_at_k": 1.0,
+  "details": [
+    {
+      "query": "Who evaluates Aurora on Atlas?",
+      "retrieved": [
+        "02.txt::c0",
+        "01.txt::c0",
+        "03.txt::c0"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query": "Which organization developed Aurora?",
+      "retrieved": [
+        "01.txt::c0",
+        "02.txt::c0",
+        "03.txt::c0"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query": "Who collaborated with Beacon Labs on Atlas?",
+      "retrieved": [
+        "03.txt::c0",
+        "02.txt::c0",
+        "01.txt::c0"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0
+    }
+  ]
+}
