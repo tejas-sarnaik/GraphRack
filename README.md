@@ -79,18 +79,15 @@ flowchart LR
     C --> I[Bounded evidence paths]
 ```
 
-
-Let \(b_i(q)\) denote BM25 over chunk \(i\), \(g_i(q)\) the query-keyword neighborhood support, and \(\lambda \in [0,1]\) the expansion weight. The ranking score is defined as
+Let \(b_i(q)\) denote the BM25 score for chunk \(i\), \(g_i(q)\) the query-keyword neighborhood support, and \(\lambda \in [0,1]\) the expansion weight. The final ranking score is defined as
 
 $$
 \operatorname{score}(i,q)
 =
-(1-\lambda)
-\frac{b_i(q)}{\max_j b_j(q)}
+(1-\lambda)\frac{b_i(q)}{\max_j b_j(q)}
 +
 \lambda g_i(q).
 $$
-
 
 If all BM25 scores are zero, the implementation uses divisor 1. Every graph edge has a set of source chunk IDs. **Graph edges represent same-sentence keyword co-occurrence, not verified subject–predicate–object facts.** See [research notes](docs/RESEARCH.md).
 
