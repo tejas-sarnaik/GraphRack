@@ -1,12 +1,12 @@
 <div align="center">
 
-# 🕸️ GraphRack
+# 🕸️ GraphRack (GraphRAG)
 
 ### Make every retrieval traceable.
 
 **A local-first, explainable evidence-graph retrieval toolkit for research and RAG applications.**
 
-[![CI](https://github.com/tejas-sarnaik/GraphRack/actions/workflows/ci.yml/badge.svg)](https://github.com/tejas-sarnaik/GraphRack/actions/workflows/ci.yml)
+[![CI](https://github.com/tejas-sarnaik/GraphRack-GraphRAG/actions/workflows/ci.yml/badge.svg)](https://github.com/tejas-sarnaik/GraphRack-GraphRAG/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
@@ -79,11 +79,17 @@ flowchart LR
     C --> I[Bounded evidence paths]
 ```
 
-Let `b_i(q)` denote BM25 over chunk `i`, `g_i(q)` the query-keyword neighborhood support, and `λ∈[0,1]` the expansion weight. Ranking uses
+Let \(b_i(q)\) denote BM25 over chunk \(i\), \(g_i(q)\) the query-keyword neighborhood support, and \(\lambda \in [0,1]\) the expansion weight. The ranking score is defined as
 
 ```text
-score(i, q) = (1-λ) * b_i(q) / max_j b_j(q) + λ * g_i(q).
-```
+$$
+\operatorname{score}(i,q)
+=
+(1-\lambda)
+\frac{b_i(q)}{\max_j b_j(q)}
++
+\lambda g_i(q).
+$$```
 
 If all BM25 scores are zero, the implementation uses divisor 1. Every graph edge has a set of source chunk IDs. **Graph edges represent same-sentence keyword co-occurrence, not verified subject–predicate–object facts.** See [research notes](docs/RESEARCH.md).
 
@@ -123,15 +129,15 @@ docs/            # Research notes, limitations and security
 .github/         # GitHub Actions and issue templates
 ```
 
-## What's different—and what's not
+## What's different and what's not
 
 The project emphasizes **interpretable path provenance and zero-dependency experimentation**. Entity spotting is a naive multilingual-Unicode-compatible token heuristic; it lacks named-entity disambiguation. No GPU or generative LLM is required, but it does **not** implement dense embeddings, real relation extraction, semantic entailment or reliable answer verification. Evaluation improvements are a research question, not a demonstrated claim.
 
 ## References
 
-- [Microsoft GraphRAG](https://github.com/microsoft/graphrag) — hierarchical, graph-centered retrieval
-- [HippoRAG](https://github.com/OSU-NLP-Group/HippoRAG) — graph memory and personalized PageRank
-- [BM25](https://en.wikipedia.org/wiki/Okapi_BM25) — lexical relevance baseline
+- [Microsoft GraphRAG](https://github.com/microsoft/graphrag) - hierarchical, graph-centered retrieval
+- [HippoRAG](https://github.com/OSU-NLP-Group/HippoRAG) - graph memory and personalized PageRank
+- [BM25](https://en.wikipedia.org/wiki/Okapi_BM25) - lexical relevance baseline
 
 ## Contributing
 
