@@ -5,14 +5,12 @@
 ### Make every retrieval traceable.
 
 **A local-first, explainable evidence-graph retrieval toolkit for research and RAG applications.**
-
 [![CI](https://github.com/tejas-sarnaik/GraphRack/actions/workflows/ci.yml/badge.svg)](https://github.com/tejas-sarnaik/GraphRack/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 **[Quickstart](#quickstart) · [How it works](#how-it-works) · [Commands](#cli-reference) · [Research](docs/RESEARCH.md) · [Roadmap](ROADMAP.md)**
-
 </div>
 
 > **Status:** v0.1.0 research prototype. Real executable code; no paid APIs or external database required. This is *not* a verified question-answering system or state-of-the-art retrieval benchmark.
